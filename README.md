@@ -7,6 +7,4 @@ Sistem informasi berisi informasi tentang orang-orang penting, tempat, dan hal-h
 (Sumber: Management Information System, Managing Digital Firm. Twelfth Edition. 2012. Kenneth C Laudon, Jane P. Laudon)
 
 ## Rencana Kelompok Enam
-Kelompok enam akan membuat Sistem Informasi tentang Evaluasi Layanan STSN dengan menampilkan fitur banyaknya pastisipan yang sudah mengisi survey
-
-OEHHH
+Kelompok enam akan membuat Sistem Informasi tentang Evaluasi Layanan STSN dengan menampilkan fitur banyaknya pastisipan yang sudah mengisi survey dikelompokkan berdasarkan kelas partisipan. Dimana partisipan merupakan mahasiswa STSN yang terdiri dari beberapa kelas.
