@@ -7,6 +7,4 @@ Melihat pengguna yang sudah mengisi berdasarkan kelas yaitu hasil extends dari u
 3. Mengatur survey yang ditampilkan
 Mengatur survey yang ditampilkan merupakan kegiatan admin untuk mengatur survey apa saja yang akan ditampilkan pada dashboard.
 4. Melakukan login
-Melakukan login merupakan kegiatan yang wajib dilakukan pengguna ketika akan melihat daftar survey dan admin ketika akan mengatur survey yang ditampilkan atau mengirim notifikasi ke email pengguna.
-5. Mengirim notifikasi ke email pengguna
-Mengirim notifikasi ke email pengguna merupakan kegiatan admin untuk mengirimkan notifikasi melalui email kepada pengguna yang belum mengisi survey, dengan tujuan bisa menjadi reminder atau pengingat kepada pengguna agar survey bisa lebih cepat dilengkapi.
+Melakukan login merupakan kegiatan yang wajib dilakukan pengguna ketika akan melihat daftar survey dan admin ketika akan mengatur survey yang ditampilkan.
