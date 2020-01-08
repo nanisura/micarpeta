@@ -1,0 +1,10 @@
+Deskripsi use case
+
+1. Melihat daftar survey
+Melihat daftar survey merupakan kegiatan pengguna untuk melihat survey yang sedang berlangsung dalam bentuk daftar (list)
+2. Melihat pengguna yang sudah mengisi berdasarkan kelas
+Melihat pengguna yang sudah mengisi berdasarkan kelas yaitu hasil extends dari use case melihat daftar survey. use case ini memungkinkan pengguna untuk melihat pengguna mana saja yang sudah mengisi survey, data disajikan dalam bentuk kelas pengguna. Contoh anggota kelas A sebanyak 20 orang dengan pengguna yang sudah mengisi sebanyak 7 orang maka data yang disajikan seperti A = 7/20.
+3. Mengatur survey yang ditampilkan
+Mengatur survey yang ditampilkan merupakan kegiatan admin untuk mengatur survey apa saja yang akan ditampilkan pada dashboard.
+4. Melakukan login
+Melakukan login merupakan kegiatan yang wajib dilakukan pengguna ketika akan melihat daftar survey dan admin ketika akan mengatur survey yang ditampilkan.
