@@ -14,6 +14,7 @@
 	   </tr>
 	  </table>
 	</div>
+
 </form>
 <script type="text/javascript">
 function valregister(){

@@ -11,15 +11,15 @@
 <li id="output_m"></li>
 <?php
 	if (isset($_SESSION['pb'])) {
-   			$link=array("","add_siswa","absen","absensi","req_catatan","catatan","keluar");
-			$name=array("","Tambah Siswa","Absen","Lihat Absensi","Catatan","Lihat Catatan","Keluar");
+   			$link=array("","absen","req_catatan","catatan", "katasandi&id=$_SESSION[id]","keluar");
+			$name=array("","Daftar Survey","Konfirmasi Kritik dan Saran","Lihat Kritik dan Saran","Ubah Katasandi","Keluar");
 
 			for ($i=1; $i <= count($link)-1 ; $i++) {
 				echo "<li><a href='$link[$i]'>$name[$i]</a></li>";
 			}
    		} elseif (isset($_SESSION['sw'])) {
-			$link=array("","absen","absensi","tambah_catatan","catatan","keluar");
-			$name=array("","Absen","Absensiku","Tambah Catatan","Catatan","Keluar");
+			$link=array("","absen","tambah_catatan","catatan","keluar");
+			$name=array("","Daftar Survey","Tambah Kritik dan Saran","Riwayat Kritik dan Saran","Keluar");
 			
 			for ($i=1; $i <= count($link)-1 ; $i++) {
 				
