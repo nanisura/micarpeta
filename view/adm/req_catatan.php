@@ -1,4 +1,4 @@
-<h3 class="page-header">Konfirmasi Catatan Kegiatan Siswa</h3>
+<h3 class="page-header">Konfirmasi Kritik dan Saran</h3>
 <?php
   $sql = "SELECT*FROM catatan NATURAL LEFT JOIN bulan NATURAL JOIN hari NATURAL JOIN tanggal NATURAL JOIN detail_user WHERE status_cat='Menunggu'";
   $query = $conn->query($sql);
@@ -19,10 +19,10 @@
                   <thead>
                      <tr>
                       <th>No</th>
-                      <th>Nama Siswa</th>
+                      <th>Nama Pengguna</th>
                       <th>Hari, Tanggal</th>
-                      <th width='40%'>Kegiatan</th>
-                      <th>Aksi</th>
+                      <th width='40%'>Kritik dan Saran</th>
+                      <th>Action</th>
                      </tr>
                   </thead>
                   <tbody>";
@@ -42,13 +42,13 @@
                   <td>$note</td>
                   <td>
                   <button type='button' class='btn btn-warning' onclick=\"window.location.href='./model/proses.php?acc_note=$id_note';\">Konfirmasi</button>&nbsp;
-                  <button type='button' class='btn btn-danger' onclick=\"window.location.href='./model/proses.php?dec_note=$id_note';\">Tolak</button>
+                  <button type='button' class='btn btn-danger' onclick=\"window.location.href='./model/proses.php?dec_note=$id_note';\">Abaikan</button>
                   </td>
                   </tr>";
           }
           echo "</tbody></table></div>";
           $conn->close();
     } else {
-        echo "<div class='alert alert-danger'><strong>Tidak ada permintaan Catatan.</strong></div>";
+        echo "<div class='alert alert-danger'><strong>Tidak ada kritik dan saran yang masuk.</strong></div>";
     }
 ?>

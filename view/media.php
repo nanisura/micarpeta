@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="http://getbootstrap.com/favicon.ico">
 
-    <title>Absensi Prakerin</title>
+    <title>SIPPS</title>
 
     <link href="./lib/bootstrap.min.css" rel="stylesheet">
     <link href="./lib/ie10-viewport-bug-workaround.css" rel="stylesheet">

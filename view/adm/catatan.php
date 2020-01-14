@@ -1,4 +1,4 @@
-<h3 class='page-header'>Catatan Kegiatan Siswa PKL</h3>
+<h3 class='page-header'>Kritik dan Saran</h3>
 	<div class='table-responsive'>
 	<?php 
 		if (isset($_GET['id_siswa'])) {
@@ -15,8 +15,8 @@
 					<thead>
 						<tr>
 							<th>No</th>
-							<th>Nama Siswa</th>
-							<th>Asal Sekolah</th>
+							<th>Nama Pengguna</th>
+							<th>Instansi</th>
 							<th>Aksi</th>
 						</tr>
 					</thead>
@@ -32,13 +32,13 @@
 							<td>$no</td>
 							<td>$name</td>
 							<td>$school</td>
-							<td><a href='catatan&id_siswa=$id_siswa' title='Catatan $name'>Lihat Catatan</a></td>
+							<td><a href='catatan&id_siswa=$id_siswa' title='Catatan $name'>Lihat</a></td>
 						</tr>";
 				}
 				$conn->close();
 				echo "</tbody></table>";
 			} else {
-				echo "<div class='alert alert-danger'><strong>Tidak ada Siswa untuk ditampilkan</strong></div>";
+				echo "<div class='alert alert-danger'><strong>Tidak ada pengguna untuk ditampilkan</strong></div>";
 			}
 		}
 	 ?>

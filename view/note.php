@@ -22,7 +22,7 @@
 	              $query_note=$conn->query("SELECT*FROM catatan NATURAL LEFT JOIN bulan NATURAL JOIN hari NATURAL JOIN tanggal WHERE id_user='$id_user' AND id_bln='$id_month' ORDER BY id_cat ASC");
 	              $cek = $query_note->num_rows;
 	              if ($cek!==0) {
-	                echo "<h4 class='sub-header'><strong>catatan:</strong> $get_user[name_user] - <i>$month</i> </h4>";
+	                echo "<h4 class='sub-header'><strong>Riwayat :</strong> $get_user[name_user] - <i>$month</i> </h4>";
 	                echo "<div class='table-responsive'>
 	                   <table class='table table-striped'>
 	                    <thead>

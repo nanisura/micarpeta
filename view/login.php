@@ -35,7 +35,7 @@
 
     <div class="container">
       <form class="form-signin" method="post" action="model/proses.php">
-        <h2 class="form-signin-heading">Please sign in</h2>
+        <h2 class="form-signin-heading">Login SIPPS</h2>
         <!-- <div class='alert alert-danger'><strong>Info : Telah dilakukan pembersihan User, untuk dapat masuk silahkan hubungi <a href="http://fb.me/rizal.ofdraw" title="Hubungi Admin">Admin</a>.<br />Mohon maaf atas ketidaknyamanan ini, Terimakasih.</strong></div>
         <div class='alert alert-success'>
         <strong>Untuk sekedar melihat-lihat Anda dapat menggunakan akun sementara :<br />
@@ -55,7 +55,7 @@
         <label for="inputPassword" class="sr-only">Password</label>
         <input type="password" name="pwd" id="inputPassword" class="form-control" placeholder="Password" required="">
     
-        <input class="btn btn-lg btn-primary btn-block" type="submit" name="login" value="Sign-in">
+        <input class="btn btn-lg btn-primary btn-block" type="submit" name="login" value="Login">
       </form>
 
     </div> <!-- /container -->

@@ -9,7 +9,7 @@ echo "<div class='table-responsive'>
             <thead>
                <tr>
                 <th>No</th>
-                <th>Status</th>
+                <th>Nama Survey</th>
                 <th>Action</th>
                </tr>
             </thead>
