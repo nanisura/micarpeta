@@ -8,7 +8,9 @@ Dimana sebelum melihat data survey, baik user maupun admin harus terlebih dahulu
 User mampu menambahkan kritik dan saran terhadap survey yang dilakukannya.
 
 3. Melihat kritik dan saran pengisi survey 
-Melihat pengguna yang sudah mengisi berdasarkan kelas yaitu hasil extends dari use case melihat daftar survey. use case ini memungkinkan pengguna untuk melihat pengguna mana saja yang sudah mengisi survey, data disajikan dalam bentuk kelas pengguna. Contoh anggota kelas A sebanyak 20 orang dengan pengguna yang sudah mengisi sebanyak 7 orang maka data yang disajikan seperti A = 7/20.
+Melihat pengguna yang sudah mengisi berdasarkan kelas yaitu hasil extends dari use case melihat daftar survey.
+Use case ini memungkinkan pengguna untuk melihat pengguna mana saja yang sudah mengisi survey, data disajikan dalam bentuk kelas pengguna.
+Contoh anggota kelas A sebanyak 20 orang dengan pengguna yang sudah mengisi sebanyak 7 orang maka data yang disajikan seperti A = 7/20.
 Selain itu, admin juga dapat melihat riwayat pengisian yang dilakukan oleh user.
 
 4. Melihat riwayat kritik dan saran sendiri
@@ -21,4 +23,4 @@ Pada bagian ini, Admin mampu melakukan konfirmasi kritik dan saran dari user.
 Admin dapat mengubah kata sandi pribadi
 
 7. Melakukan logout
-Apabila user maupun user hendak keluar, masing-masing dapat melakukan logout.
+Apabila user maupun user hendak keluar dari sistem, masing-masing dapat melakukan logout.
