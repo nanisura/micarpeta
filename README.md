@@ -1,4 +1,8 @@
-# micarpeta
+# Sistem Informasi Penampil Pengisi Survey
+# SIPPS
+
+## Putu Vina Mahayani, Rico Setyawan, Venia Noella N. Damanik
+## IV - Rekayasa Perangkat Lunak Kripto
 
 ## Sistem Informasi
 Suatu sistem informasi dapat didefinisikan secara teknis sebagai seperangkat komponen yang saling terkait yang mengumpulkan (atau mengambil), memproses, menyimpan, dan mendistribusikan informasi untuk mendukung pengambilan keputusan dan kontrol dalam suatu organisasi. Selain mendukung pengambilan keputusan, koordinasi, dan kontrol, sistem informasi juga dapat membantu manajer dan pekerja menganalisis masalah, memvisualisasikan subjek yang kompleks, dan membuat produk baru.
@@ -10,4 +14,4 @@ Sistem informasi berisi informasi tentang orang-orang penting, tempat, dan hal-h
 Kelompok enam akan membuat Sistem Informasi tentang Evaluasi Layanan STSN dengan menampilkan fitur banyaknya pastisipan yang sudah mengisi survey dan dikelompokkan berdasarkan kelas partisipan. Dimana partisipan merupakan mahasiswa STSN yang terdiri dari beberapa kelas. Sistem Informasi ini akan diberi nama Sistem Informasi Penampil Pengisi Survey atau disingkat SIPPS
 
 ## SIPPS
-Dalam menggunakan sistem informasi ini, pengguna harus memiliki akun agar dapat melihat data survey dan melihat daftar pengisi berdasarkan kategori yaitu kelasnya. Pengguna harus memiliki akun agar admin dapat mengatur hak akses/wewenang pengguna atas apa saja yang dapat dilihat. Admin juga harus memiliki akun menjadi fungsi kontrol bagi pemegang sistem informasi.
+Dalam menggunakan sistem informasi ini, pengguna harus memiliki akun agar dapat melihat data survey dan melakukan layanan yang disediakan oleh SIPPS. Pengguna harus memiliki akun juga agar admin dapat mengatur hak akses/wewenang pengguna atas apa saja yang dapat dilihat. Admin juga harus memiliki akun menjadi fungsi kontrol bagi pemegang sistem informasi.
