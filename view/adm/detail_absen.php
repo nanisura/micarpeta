@@ -46,7 +46,7 @@ if(isset($_GET['id_survey']))
  		
         if(is_array($surveyResponses)) {
             // Oops, print any errors
-            print_r($surveyResponses);
+            echo "<div class='alert alert-danger'><strong>Tidak ada data pengisi survey.</strong></div>";
         }
         else {
             // Decode the retuned base-64 string and convert to an array
